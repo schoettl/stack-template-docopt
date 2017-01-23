@@ -10,6 +10,8 @@ import System.Environment (getArgs)
 import Control.Monad (when)
 import Data.Char (toUpper)
 
+-- Use docopt|...| instead of docoptFile|...|
+-- if you prefer an inline usage message.
 patterns :: Docopt
 patterns = [docoptFile|USAGE.txt|]
 
